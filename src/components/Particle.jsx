@@ -37,7 +37,10 @@ const ParticlesComponent = (props) => {
           value: "#1E2F97",
         },
       },
-      fpsLimit: 120,
+      fullScreen: {
+        enable: false
+      },
+      fpsLimit: 240,
       interactivity: {
         events: {
           onClick: {
@@ -51,7 +54,7 @@ const ParticlesComponent = (props) => {
         },
         modes: {
           push: {
-            distance: 200,
+            distance: 100,
             duration: 15,
           },
           grab: {
@@ -77,7 +80,7 @@ const ParticlesComponent = (props) => {
             default: "bounce",
           },
           random: true,
-          speed: 1,
+          speed: 4,
           straight: false,
         },
         number: {
