@@ -38,7 +38,12 @@ const ParticlesComponent = (props) => {
         },
       },
       fullScreen: {
-        enable: false
+        enable: false,
+        zIndex:-1,
+
+      },
+      style: {
+position: "absolute",
       },
       fpsLimit: 240,
       interactivity: {
@@ -90,7 +95,7 @@ const ParticlesComponent = (props) => {
           value: 150,
         },
         opacity: {
-          value: 1.0,
+          value: 0.1,
         },
         shape: {
           type: "circle",
