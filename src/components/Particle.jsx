@@ -39,11 +39,11 @@ const ParticlesComponent = (props) => {
       },
       fullScreen: {
         enable: false,
-        zIndex:-1,
+        zIndex: -1,
 
       },
       style: {
-position: "absolute",
+        position: "absolute",
       },
       fpsLimit: 240,
       interactivity: {
@@ -110,7 +110,7 @@ position: "absolute",
   );
 
 
-  return <Particles id={props.id} init={particlesLoaded} options={options} />; 
+  return <Particles id={props.id} init={particlesLoaded} options={options} />;
 };
 
 export default ParticlesComponent;
