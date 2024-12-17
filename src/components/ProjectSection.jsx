@@ -1,9 +1,9 @@
 export default function ProjectSection() {
     return (
         <>
-            <section className='h-[100vh]  border'>
+            <section className='h-[100vh] '>
                 <div >
-                    meow moew
+                    Bhow bhwo
                 </div>
             </section>
         </>
