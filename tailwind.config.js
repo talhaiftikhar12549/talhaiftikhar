@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Rubik', 'ui-sans-serif', 'system-ui'], // Replace 'Roboto' with your font name
+    },
   },
   plugins: [],
 }
