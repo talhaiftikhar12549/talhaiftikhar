@@ -6,7 +6,7 @@ export default function NavBar() {
                 <p className="font-bold cursor-pointer hover:text-[#ffffff]">ABOUT ME</p>
                 <p className="font-bold cursor-pointer hover:text-[#ffffff]">EXPERIENCE</p>
                 <p className="font-bold cursor-pointer hover:text-[#ffffff]">PROJECTS</p>
-                <p className="font-bold cursor-pointer hover:text-[#ffffff]">EDUCTION</p>
+                <p className="font-bold cursor-pointer hover:text-[#ffffff]">EDUCATION</p>
                 <p className="font-bold cursor-pointer hover:text-[#ffffff]">CONTACT</p>
                
             </div>
