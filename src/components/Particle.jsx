@@ -34,7 +34,6 @@ const ParticlesComponent = (props) => {
     () => ({
       background: {
         color: {
-          // value: "#001424",
           value: "#0e0e1a",
         },
       },

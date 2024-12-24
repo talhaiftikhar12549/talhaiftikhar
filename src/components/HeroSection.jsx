@@ -14,14 +14,14 @@ export default function HeroSection() {
                         <p className="text-lg">
                             Meta Certified Front-End Engineer, turning pixels into pages with a parallel of 3+ years experience in tech. I am a self-taught developer who loves to build things that live on the internet.
                         </p>
-                        <div className="flex justify-between w-[100%] py-8">
+                        <div className="flex justify-around w-[100%] py-8">
 
                             <div className="cursor-pointer group relative w-32 h-12">
                                 <div className="absolute inset-0 flex items-center justify-center z-30">
                                     <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">Let's Connect</p>
                                 </div>
                                 <div className="bg-[#fefefe] w-32 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>
-                                <div className="bg-[#2c2ebf] w-32 h-12 absolute group-hover:bg-[#fefefe] transition-colors duration-300"></div>
+                                <div className="bg-[#2c2ebf] w-32 h-12 absolute group-hover:bg-[#ffffff] transition-colors duration-300"></div>
                             </div>
 
 
