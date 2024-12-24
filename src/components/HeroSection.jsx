@@ -1,4 +1,5 @@
 import talhaPic from "../assets/talha crop.jpg"
+import TypingTextAnimation from "./TypingTextAnimation"
 export default function HeroSection() {
     return (
         <>
@@ -7,7 +8,10 @@ export default function HeroSection() {
                     <div>
                         <p className="text-2xl font-bold">Hello 👋, I'm</p>
                         <p className="text-5xl font-bold">Talha</p>
-                        <p className="text-2xl font-bold">A passionate Software Engineer</p>
+                        {/* <p className="text-2xl font-bold">A passionate Software Engineer</p> */}
+                        <div className="">
+                            <TypingTextAnimation />
+                        </div>
                     </div>
                     <div>
                         <img className="rounded-full h-[400px] w-[400px]" src={talhaPic} alt="Talha" />
