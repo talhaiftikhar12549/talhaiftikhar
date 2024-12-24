@@ -14,22 +14,22 @@ export default function HeroSection() {
                         <p className="text-lg">
                             Meta Certified Front-End Engineer, turning pixels into pages with a parallel of 3+ years experience in tech. I am a self-taught developer who loves to build things that live on the internet.
                         </p>
-                        <div className="flex justify-around w-[100%] py-8">
+                        <div className="flex justify-between w-[100%] py-8">
 
+                            <div className="cursor-pointer group relative w-32 h-12">
+                                <div className="absolute inset-0 flex items-center justify-center z-30">
+                                    <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">Let's Connect</p>
+                                </div>
+                                <div className="bg-[#fefefe] w-32 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>
+                                <div className="bg-[#2c2ebf] w-32 h-12 absolute group-hover:bg-[#fefefe] transition-colors duration-300"></div>
+                            </div>
 
-                            {/* <div className="py-2 px-4 relative ">
-                            <p className="absolute">Let's Connect</p>
-                            <div className="bg-[#2c2ebf] py-8 px-12 absolute"></div>
-                            <div className="bg-[#fefefe] py-8 px-12 absolute"></div>
-                            </div> */}
-
-                            <p className="bg-[#2c2ebf] py-2 px-4 shadow font-bold cursor-pointer">Let's Connet</p>
 
                             <p className="py-2 px-4 cursor-pointer font-bold relative group">
                                 Resume
                                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#2c2ebf] transition-all duration-300 group-hover:left-0 group-hover:w-full"></span>
                             </p>
-                    
+
                             <p className="py-2 px-4 cursor-pointer font-bold relative group">
                                 Projects
                                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#2c2ebf] transition-all duration-300 group-hover:left-0 group-hover:w-full"></span>
