@@ -4,12 +4,11 @@ export default function HeroSection() {
     return (
         <>
             <section className="text-[#ffffff] absolute inset-0 flex items-center justify-center">
-                <div className="flex items-center pt-24">
-                    <div>
+                <div className="flex items-center pt-24 w-[70%] justify-between">
+                    <div className="">
                         <p className="text-2xl font-bold">Hello 👋, I'm</p>
                         <p className="text-5xl font-bold">Talha</p>
-                        {/* <p className="text-2xl font-bold">A passionate Software Engineer</p> */}
-                        <div className="">
+                        <div className="font-bold text-xl">
                             <TypingTextAnimation />
                         </div>
                     </div>

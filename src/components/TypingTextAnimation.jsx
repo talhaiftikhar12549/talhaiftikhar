@@ -12,12 +12,12 @@ export default function TypingTextAnimation()
           2000,
           'A passionate Mern Stack Engineer',
           2000,
-          'A passionate SEO Content Writter',
+          'A passionate SEO Content Writer',
           2000
         ]}
         wrapper="span"
         speed={50}
-        style={{ fontSize: '2em', display: 'inline-block' }}
+        style={{ display: 'inline-block' }}
         repeat={Infinity}
       />
     )

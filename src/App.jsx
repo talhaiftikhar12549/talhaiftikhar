@@ -9,23 +9,20 @@ function App() {
   return (
     <>
 
-
-
-
       <section className='h-[100vh] w-100'>
 
+        <div className='top-0 left-0 right-0 bottom-0 max-w-100 max-h-[85vh] absolute'>
 
-        <div className='top-0 left-0 right-0 bottom-0  max-w-100 max-h-[85vh] absolute '>
-
-
-          <NavBar />
+          <NavBar/>
 
           <ParticlesComponent id="particles" />
 
-
         </div>
+
         <div>
+
           <HeroSection />
+
         </div>
 
       </section>
