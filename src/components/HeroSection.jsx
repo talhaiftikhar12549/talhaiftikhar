@@ -1,6 +1,14 @@
 import talhaPic from "../assets/talha crop.jpg"
 import TypingTextAnimation from "./TypingTextAnimation"
 export default function HeroSection() {
+
+    const handleDownload = () => {
+        const link = document.createElement("a");
+        link.href = "/Resume/Muhammad Talha Resume.pdf"; 
+        link.download = "Talha Resume.pdf";
+        link.click();
+      };
+
     return (
         <>
             <section className="text-[#ffffff] absolute inset-0 flex items-center justify-center">
@@ -27,7 +35,7 @@ export default function HeroSection() {
                             </div>
 
 
-                            <p className="py-2 px-4 cursor-pointer font-bold relative group">
+                            <p onClick={handleDownload} className="py-2 px-4 cursor-pointer font-bold relative group">
                                 Resume
                                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#2c2ebf] transition-all duration-300 group-hover:left-0 group-hover:w-full"></span>
                             </p>
