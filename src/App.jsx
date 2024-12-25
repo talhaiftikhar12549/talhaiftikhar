@@ -4,6 +4,7 @@ import ProjectSection from './components/ProjectSection';
 import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
+import MyExperience from './components/MyExperience';
 function App() {
 
 
@@ -34,6 +35,11 @@ function App() {
      <AboutUs/>
 
 {/* About US section */}
+
+
+{/* Experience Section */}
+<MyExperience/>
+{/* Experience Section */}
     </>
   )
 }
