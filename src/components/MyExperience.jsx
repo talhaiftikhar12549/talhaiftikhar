@@ -20,7 +20,7 @@ export default function MyExperience() {
                             <div className="w-[20%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={UforiaLogo} alt="" /></div>
                             <div className="w-[70%]  ">
                                 <p className="text-lg font-bold">Web Developer</p>
-                                <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"> Uforia Infotech Solutions</span>  | On-site | May 2024 - Aug 2024</p>
+                                <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"><a href="https://uforiainfotech.com/" target="_blank" rel="noopener noreferrer"> Uforia Infotech Solutions</a></span>  | On-site | May 2024 - Aug 2024</p>
                                 <ul className="list-disc pl-8 pt-2">
                                     <li> Built responsive web applications with React.js and Vue.js, delivering quality software in a fast-paced environment.</li>
                                     <li> Utilized Fabric.js to create interactive canvas features for custom graphics and drawing tools
@@ -50,7 +50,7 @@ export default function MyExperience() {
                             <div className="w-[70%]  ">
                                 <div className="py-2">
                                     <p className="text-lg font-bold">IT Admin & Junior Accountant ( volunteer )</p>
-                                    <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"> Ujala Elementary School</span>  | On-site | Sep 2021 – Present</p>
+                                    <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"><a href="https://www.ujalaschool.org/" target="_blank" rel="noopener noreferrer"> Ujala Elementary School</a></span>  | On-site | Sep 2021 – Present</p>
                                     <ul className="list-disc pl-8 pt-2">
                                         <li>Administered and maintained a charity school’s IT infrastructure encompassing Computers, 
                                         networks and software systems.</li>
@@ -82,7 +82,7 @@ export default function MyExperience() {
                             <div className="w-[20%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={HitechImg} alt="" /></div>
                             <div className="w-[70%]  ">
                                 <p className="text-lg font-bold">Teaching Assistant</p>
-                                <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"> HITECH University</span>  | On-site | Feb 2023 - Jul 2023</p>
+                                <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"><a href="https://www.hitecuni.edu.pk/" target="_blank" rel="noopener noreferrer"> HITECH University</a></span>  | On-site | Feb 2023 - Jul 2023</p>
                                 <ul className="list-disc pl-8 pt-2">
                                     <li>Mentored 50+ students in foundation year in C++ and JavaScript.</li>
                                     <li>Instructed Students in foundational web development skills, covering HTML, CSS, and JavaScript
