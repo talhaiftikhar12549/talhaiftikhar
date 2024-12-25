@@ -40,6 +40,11 @@ function App() {
 {/* Experience Section */}
 <MyExperience/>
 {/* Experience Section */}
+
+
+{/* Projects Section */}
+<ProjectSection/>
+{/* Projects Section */}
     </>
   )
 }

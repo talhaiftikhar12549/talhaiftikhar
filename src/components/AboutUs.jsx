@@ -14,7 +14,7 @@ export default function AboutUs() {
 
                     <div className="w-[50%] h-[40vh] flex justify-center items-center text-2xl">
                         <div className=" md:px-16 text-left">
-                            <p className=" text-3xl py-2 my-6 [#2c2ebf] relative">ABOUT ME<span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
+                            <p className=" text-3xl py-2 my-6 [#2c2ebf] relative">ABOUT ME.<span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                             <p className='py-6 text-2xl font-bold'>My Journey as a Software Engineer</p>
                             <p className='text-lg'>
                                 After completing my pre-Engineering studies, I decided to pursue my career as a computer scientist at HITEC University. I started learning web development and created some cool web apps using different platforms like React, Vue, and Node. I spend most of my free time doing charity work.
