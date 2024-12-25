@@ -1,7 +1,14 @@
 import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png"
 import iPic from "../assets/i.png"
 import deletePic from "../assets/delete.png"
+import { useState } from "react"
 export default function ProjectSection() {
+
+    const [isVisible, setIsVisible] = useState(true);
+
+    const handleDelete = () => {
+        setIsVisible(false);
+    };
 
     return (
         <>
@@ -11,20 +18,24 @@ export default function ProjectSection() {
                         <p class=" text-3xl py-2 [#2c2ebf] relative">PROJECTS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
 
-                    <div className="border-2 py-4 my-6 border-[#2c2ebf] w-[100%] bg-[#060614]">
+                    {/* Project detail information div */}
+
+                    {isVisible && <div className="border-2 py-4 my-6 border-[#2c2ebf] w-[100%] bg-[#060614]">
 
                         <div className="flex justify-between items-center px-4">
-                           <div className="flex items-center">
-                            <img className="px-4" src={iPic} alt="I Icon" />
-                           <p>Click on Project to view more details</p>
-                           </div>
-                           <div className="px-2">
-                           <img className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" />
-                           </div>
-                           
+                            <div className="flex items-center">
+                                <img className="px-4" src={iPic} alt="I Icon" />
+                                <p>Click on Project to view more details</p>
+                            </div>
+                            <div className="px-2">
+                                <img onClick={handleDelete} className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" />
+                            </div>
+
                         </div>
 
-                    </div>
+                    </div>}
+                    
+                    {/* Project detail information div */}
 
                     {/* Uforia Experience */}
                     <div className=" py-12 flex bg-[#060614]">
