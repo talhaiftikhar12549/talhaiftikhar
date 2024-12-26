@@ -1,6 +1,12 @@
 import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png"
 import iPic from "../assets/i.png"
 import deletePic from "../assets/delete.png"
+import weatherWalley from "../assets/weather walley logo.png"
+import projectmanagement from "../assets/scrum-board (1).png"
+import scrumBoard from "../assets/scrumboard.png"
+import netflixLogo from "../assets/Netflix Logo.png"
+import portfolioLogo from "../assets/Talha Portfolio Logo.png"
+import foodxLogo from "../assets/Foodx Logo.png"
 import { useState } from "react"
 export default function ProjectSection() {
 
@@ -24,7 +30,7 @@ export default function ProjectSection() {
 
                         <div className="flex justify-between items-center px-4">
                             <div className="flex items-center">
-                                <img className="px-4" src={iPic} alt="I Icon" />
+                                <img className="px-6" src={iPic} alt="I Icon" />
                                 <p>Click on Project to view more details</p>
                             </div>
                             <div className="px-2">
@@ -34,32 +40,91 @@ export default function ProjectSection() {
                         </div>
 
                     </div>}
-                    
+
                     {/* Project detail information div */}
 
+
                     {/* Uforia Experience */}
-                    <div className=" py-12 flex bg-[#060614]">
+                    <div className=" py-8">
+                        {/* project row 1 */}
+
+                        <div className="flex py-6 w-[100%] justify-between ">
 
 
-                        <div className="flex w-[100%]">
-                            <div className="w-[20%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={UforiaLogo} alt="" /></div>
-                            <div className="w-[70%]  ">
-                                <p className="text-lg font-bold">Web Developer</p>
-                                <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"><a href="https://uforiainfotech.com/" target="_blank" rel="noopener noreferrer"> Uforia Infotech Solutions</a></span>  | On-site | May 2024 - Aug 2024</p>
-                                <ul className="list-disc pl-8 pt-2">
-                                    <li> Built responsive web applications with React.js and Vue.js, delivering quality software in a fast-paced environment.</li>
-                                    <li> Utilized Fabric.js to create interactive canvas features for custom graphics and drawing tools
-                                        in applications.</li>
-                                    <li>I learned backend development, including PHP and Laravel, which helped me to jump on the other side of the stack.</li>
-                                </ul>
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={scrumBoard} alt="" /></div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
                             </div>
-                            <div className="w-[10%] ">
-                                <button className="bg-[#2c2ebf] py-1 px-2 text-sm">Full Time</button>
+
+
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
+                                </div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
                             </div>
 
                         </div>
+                        {/* project row 1 */}
 
 
+                        {/* project row 2 */}
+
+                        <div className="flex w-[100%] py-4 justify-between ">
+
+
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={weatherWalley} alt="" /></div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
+                            </div>
+
+
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={foodxLogo} alt="" /></div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        {/* project row 2 */}
+
+
+
+                        {/* project row 3 */}
+
+                        <div className="flex w-[100%] py-4 justify-between ">
+
+
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" /></div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
+                            </div>
+
+
+                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
+                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={netflixLogo} alt="" /></div>
+                                <div className="w-[70%]  ">
+                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        {/* project row 3 */}
                     </div>
 
 
