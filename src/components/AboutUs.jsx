@@ -17,7 +17,7 @@ export default function AboutUs() {
                             <p className=" text-3xl py-2 my-6 [#2c2ebf] relative">ABOUT ME.<span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                             <p className='py-6 text-2xl font-bold'>My Journey as a Software Engineer</p>
                             <p className='text-lg'>
-                                After completing my pre-Engineering studies, I decided to pursue my career as a computer scientist at HITEC University. I started learning web development and created some cool web apps using different platforms like React, Vue, and Node. I spend most of my free time doing charity work.
+                                After completing my pre-Engineering studies, I decided to pursue my career as a computer scientist at HITEC University. I started learning web development and have created some cool web apps using platforms like React, Vue, and Node. Aside from coding, I spend most of my time doing charity work.
                             </p>
 
 

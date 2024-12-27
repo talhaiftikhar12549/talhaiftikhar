@@ -7,6 +7,8 @@ import scrumBoard from "../assets/scrumboard.png"
 import netflixLogo from "../assets/Netflix Logo.png"
 import portfolioLogo from "../assets/Talha Portfolio Logo.png"
 import foodxLogo from "../assets/Foodx Logo.png"
+import littleLemon from "../assets/Little Lemon.png"
+import fabricCanvas from "../assets/FabricjsCanvas.png"
 import { useState } from "react"
 export default function ProjectSection() {
 
@@ -51,23 +53,68 @@ export default function ProjectSection() {
                         <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={scrumBoard} alt="" /></div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Scrum Board</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>Vue 3</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
 
                                 </div>
+
                             </div>
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
                                 </div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Project Mangement Tool</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>React</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+
 
                                 </div>
+
                             </div>
 
                         </div>
@@ -76,55 +123,226 @@ export default function ProjectSection() {
 
                         {/* project row 2 */}
 
-                        <div className="flex w-[100%] py-4 justify-between ">
+                        <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={weatherWalley} alt="" /></div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Weather Walley</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>Vue 3</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
 
                                 </div>
+
                             </div>
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={foodxLogo} alt="" /></div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Food X</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>React</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+
 
                                 </div>
+
                             </div>
 
                         </div>
+
                         {/* project row 2 */}
 
 
 
                         {/* project row 3 */}
 
-                        <div className="flex w-[100%] py-4 justify-between ">
+                        <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" /></div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Talha Protfolio</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>Vue 3</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
 
                                 </div>
+
                             </div>
 
 
-                            <div className="w-[48%] bg-[#060614] border-2 border-[#060614] flex hover:border-[#2c2ebf] cursor-pointer">
-                                <div className="w-[30%] flex items-center justify-center"><img className="h-[150px] w-[150px]" src={netflixLogo} alt="" /></div>
-                                <div className="w-[70%]  ">
-                                    <p className="text-lg font-bold">Web Developer</p>
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Netflix Clone</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>React</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+
 
                                 </div>
+
                             </div>
 
                         </div>
                         {/* project row 3 */}
+
+
+                        {/* project row 4 */}
+
+                        <div className="flex py-6 w-[100%] justify-between ">
+
+
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Fabric Canvas</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>Vue 3</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+
+                                </div>
+
+                            </div>
+
+
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+
+                                <div className="w-[35%] flex items-center justify-center">
+                                    <img className="h-[150px] w-[150px]" src={littleLemon} alt="" />
+                                </div>
+
+                                <div className="w-[65%] py-0 px-8 ">
+
+                                    <p className="text-lg font-bold">Little Lemon</p>
+
+                                    <div className="flex items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                            <p>React</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>JavaScript</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Bootstrap</p>
+                                        </div>
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                            <p>Vite</p>
+                                        </div>
+                                    </div>
+
+                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        {/* project row 4 */}
+
+
+
                     </div>
 
 
