@@ -144,14 +144,14 @@ export default function ProjectSection() {
                                             <p>JavaScript</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>Tailwind</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Vite</p>
+                                            <p>Node</p>
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+                                    <p className="text-sm">Weather Forecasting app that tracks weekly weather around the globe. Integrated the OpenWeather API with a Leaflet map to track location.</p>
 
                                 </div>
 
@@ -176,14 +176,14 @@ export default function ProjectSection() {
                                             <p>JavaScript</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>Tailwind</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+                                    <p className="text-sm">Online food ordering website that serves Oriental, Continental, and Chinese cuisine. Get your favorite food delivered to your doorstep. </p>
 
 
                                 </div>
@@ -209,24 +209,24 @@ export default function ProjectSection() {
 
                                 <div className="w-[65%] py-0 px-8 ">
 
-                                    <p className="text-lg font-bold">Talha Protfolio</p>
+                                    <p className="text-lg font-bold">Talha Portfolio</p>
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
-                                            <p>Vue 3</p>
+                                            <p>React</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>JavaScript</p>
+                                            <p>Particle Js</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>Tailwind</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+                                    <p className="text-sm">My personal portfolio website, built from scratch using React, showcases my skill set in an aesthetic and visually appealing way.</p>
 
                                 </div>
 
@@ -236,29 +236,29 @@ export default function ProjectSection() {
                             <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
 
                                 <div className="w-[35%] flex items-center justify-center">
-                                    <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
+                                    <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
                                 </div>
 
                                 <div className="w-[65%] py-0 px-8 ">
 
-                                    <p className="text-lg font-bold">Netflix Clone</p>
+                                    <p className="text-lg font-bold">Fabric Js Canvas</p>
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
-                                            <p>React</p>
+                                            <p>Fabric.Js</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>React</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Vite</p>
+                                            <p>Tailwind</p>
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+                                    <p className="text-sm">Designed and created objects freely on a canvas. Integrated the Fabric.js library with React.js to build an interactive canvas application. </p>
 
 
                                 </div>
@@ -277,29 +277,27 @@ export default function ProjectSection() {
                             <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
 
                                 <div className="w-[35%] flex items-center justify-center">
-                                    <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
+                                    <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
                                 </div>
 
                                 <div className="w-[65%] py-0 px-8 ">
 
-                                    <p className="text-lg font-bold">Fabric Canvas</p>
+                                    <p className="text-lg font-bold">Netflix Clone</p>
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
-                                            <p>Vue 3</p>
+                                            <p>HTML/CSS</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>Tailwind</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Vite</p>
-                                        </div>
+                                        
                                     </div>
 
-                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+                                    <p className="text-sm">Cloned a Netflix app landing page to replicate its design and functionality. Built the page from scratch using Tailwind CSS. </p>
 
                                 </div>
 
@@ -324,14 +322,14 @@ export default function ProjectSection() {
                                             <p>JavaScript</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Bootstrap</p>
+                                            <p>TailWind</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+                                    <p className="text-sm">Make your evening memorable with Little Lemon Restaurant. Order your food or book your table for an aesthetic dine-in experience.</p>
 
 
                                 </div>
