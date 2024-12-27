@@ -1,7 +1,12 @@
 import talhaPic from "../assets/talha crop.jpg"
 import TypingTextAnimation from "./TypingTextAnimation"
 export default function HeroSection() {
-
+const projectsSection = document.getElementById('projectsSection');
+const handleClick = () => {
+    if (projectsSection) {
+        projectsSection.scrollIntoView({ behavior: 'smooth' });
+      }
+}
     const handleDownload = () => {
         const link = document.createElement("a");
         link.href = "/Resume/Muhammad Talha Resume.pdf"; 
@@ -40,7 +45,7 @@ export default function HeroSection() {
                                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#2c2ebf] transition-all duration-300 group-hover:left-0 group-hover:w-full"></span>
                             </p>
 
-                            <p className="py-2 px-4 cursor-pointer font-bold relative group">
+                            <p onClick={handleClick} className="py-2 px-4 cursor-pointer font-bold relative group">
                                 Projects
                                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-[#2c2ebf] transition-all duration-300 group-hover:left-0 group-hover:w-full"></span>
                             </p>

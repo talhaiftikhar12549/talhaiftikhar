@@ -9,7 +9,7 @@ import portfolioLogo from "../assets/Talha Portfolio Logo.png"
 import foodxLogo from "../assets/Foodx Logo.png"
 import littleLemon from "../assets/Little Lemon.png"
 import fabricCanvas from "../assets/FabricjsCanvas.png"
-import { useState } from "react"
+import { useState, useRef } from "react"
 export default function ProjectSection() {
 
     const [isVisible, setIsVisible] = useState(true);
@@ -20,7 +20,7 @@ export default function ProjectSection() {
 
     return (
         <>
-            <div className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div id="projectsSection" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
                 <div className="w-[70%] ">
                     <div className="py-10 ">
                         <p class=" text-3xl py-2 [#2c2ebf] relative">PROJECTS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
