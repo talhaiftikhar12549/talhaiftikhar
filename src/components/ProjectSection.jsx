@@ -45,8 +45,6 @@ export default function ProjectSection() {
 
                     {/* Project detail information div */}
 
-
-                    {/* Uforia Experience */}
                     <div className=" py-8">
                         {/* project row 1 */}
 
@@ -294,7 +292,7 @@ export default function ProjectSection() {
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
-                                        
+
                                     </div>
 
                                     <p className="text-sm">Cloned a Netflix app landing page to replicate its design and functionality. Built the page from scratch using Tailwind CSS. </p>

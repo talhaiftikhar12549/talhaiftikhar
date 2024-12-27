@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
 import MyExperience from './components/MyExperience';
+import EducationSkills from './components/Education&Skills';
 function App() {
 
 
@@ -45,6 +46,10 @@ function App() {
 {/* Projects Section */}
 <ProjectSection/>
 {/* Projects Section */}
+
+{/* Education & Skills */}
+<EducationSkills/>
+{/* Education & Skills */}
     </>
   )
 }
