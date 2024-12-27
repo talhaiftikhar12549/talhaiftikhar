@@ -51,7 +51,7 @@ export default function HeroSection() {
 
 
                     <div>
-                        <img className="rounded-full h-[400px] w-[400px]" src={talhaPic} alt="Talha" />
+                        <img title="Yep, that's me." className="rounded-full h-[400px] w-[400px]" src={talhaPic} alt="Talha" />
                     </div>
                 </div>
             </section>

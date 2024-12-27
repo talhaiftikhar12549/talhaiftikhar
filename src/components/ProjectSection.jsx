@@ -51,7 +51,7 @@ export default function ProjectSection() {
                         <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
@@ -83,7 +83,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
@@ -124,7 +124,7 @@ export default function ProjectSection() {
                         <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
@@ -156,7 +156,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
@@ -199,7 +199,7 @@ export default function ProjectSection() {
                         <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
@@ -231,7 +231,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
@@ -272,7 +272,7 @@ export default function ProjectSection() {
                         <div className="flex py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
@@ -302,7 +302,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer">
+                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={littleLemon} alt="" />
@@ -346,7 +346,7 @@ export default function ProjectSection() {
 
                 </div>
 
-                {/* HITEC University Experience */}
+        
 
 
 

@@ -8,7 +8,7 @@ export default function AboutUs() {
 
 
                     <div className="w-[50%] h-full md:h-[70vh] flex justify-center relative">
-                        <img src={collageImg} alt="Collage of hobbies" className="h-full w-[50%] absolute object-contain" />
+                        <img title='Hobbies and activities I love to do.' src={collageImg} alt="Collage of hobbies" className="h-full w-[50%] absolute object-contain" />
                     </div>
 
 

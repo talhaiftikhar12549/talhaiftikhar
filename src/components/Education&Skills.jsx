@@ -24,7 +24,7 @@ export default function EducationSkills() {
 
                         <div className="w-[60%] flex-col">
                             <p className="text-3xl font-bold">My skills</p>
-                            <p className="py-4">I am language-agnostic, however, I have worked with several technologies and frameworks during my time freelancing and on personal projects. These include C, Java, JavaScript/TypeScript, Python, and more.</p>
+                            <p className="py-4">I am a language-agnostic developer, primarily focused on logic. However, I am fluent in working with different technologies and frameworks, including C++, JavaScript/TypeScript, Python, and more.</p>
                             <div className="flex flex-row py-4 justify-between w-[100%]">
                                 <div className="w-[50%] h-[100%]">
                                     <p className="text-xl font-bold">Databases</p>
