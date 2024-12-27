@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import AboutUs from './components/AboutUs';
 import MyExperience from './components/MyExperience';
 import EducationSkills from './components/Education&Skills';
+import ContactUs from './components/ContactUs';
 function App() {
 
 
@@ -47,9 +48,16 @@ function App() {
 <ProjectSection/>
 {/* Projects Section */}
 
+
 {/* Education & Skills */}
 <EducationSkills/>
 {/* Education & Skills */}
+
+
+{/* Contact Us Section*/}
+<ContactUs/>
+{/* Contact Us Section */}
+
     </>
   )
 }

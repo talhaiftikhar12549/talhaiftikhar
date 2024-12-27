@@ -1,7 +1,7 @@
 export default function EducationSkills() {
     return (
         <>
-            <div className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div className="h-[90vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
                 <div className="w-[70%] ">
 
