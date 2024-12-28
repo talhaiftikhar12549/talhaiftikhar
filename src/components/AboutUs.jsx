@@ -11,7 +11,7 @@ export default function AboutUs() {
     return (
         <>
 
-            <div id='aboutMe' className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7]">
+            <div id='aboutMe' className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7]">
                 <div className="w-full h-full flex flex-col md:flex-row items-center justify-center">
 
 

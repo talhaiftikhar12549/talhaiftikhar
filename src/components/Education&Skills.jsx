@@ -1,7 +1,8 @@
+import triangleImg from '../assets/right angle triangle.png'
 export default function EducationSkills() {
     return (
         <>
-            <div id="Education&Skills" className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div id="Education&Skills" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
                 <div className="w-[70%] ">
 
@@ -15,8 +16,13 @@ export default function EducationSkills() {
 
                         <div className="w-[40%]">
 
-                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614]  py-8 px-4 ">
-                                <div className="pt-4">
+                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614]  py-8 px-4 relative">
+
+                                <div className="absolute top-3 -left-2">
+                                    <p className="bg-[#2c2ebf] py-1 px-2 text-xs">2019 - 2023</p>
+                                    <img className='w-[8px] h-[8px]' src={triangleImg} alt="" />
+                                </div>
+                                <div className="pt-4 px-2">
                                     <p className="text-md font-semibold">Bachelor's in Computer Science</p>
                                     <p className="text-sm py-2">HITEC University</p>
                                 </div>
@@ -24,17 +30,28 @@ export default function EducationSkills() {
 
                             </div>
                             {/* <div className="bg-[#2a2a33] w-[90%] h-[1px]"></div> */}
-                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614] py-8 px-4 ">
-                                <div className="pt-6">
+                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614] py-8 px-4 relative">
+
+                                <div className="absolute top-3 -left-2">
+                                    <p className="bg-[#2c2ebf] py-1 px-2 text-xs">2017 - 2019</p>
+                                    <img className='w-[8px] h-[8px]' src={triangleImg} alt="" />
+                                    <div></div>
+                                </div>
+                                <div className="pt-6 px-2">
                                     <p className="text-md font-semibold">Pre-Engineering (College)</p>
                                     <p className="text-sm py-2">Sir Syed College</p>
                                 </div>
 
 
                             </div>
-                            <div className="w-[90%] bg-[#060614] py-8 px-4 ">
-                                <div className="pt-6">
-                                    <p className="text-md font-semibold">Pre-Engineering (College)</p>
+                            <div className="w-[90%] bg-[#060614] py-8 px-4 relative">
+
+                                <div className="absolute top-3 -left-2">
+                                    <p className="bg-[#2c2ebf] py-1 px-2 text-xs">2015 - 2017</p>
+                                    <img className='w-[8px] h-[8px]' src={triangleImg} alt="" />
+                                </div>
+                                <div className="pt-6 px-2">
+                                    <p className="text-md font-semibold">Science (School)</p>
                                     <p className="text-sm py-2">Sir Syed College</p>
                                 </div>
 

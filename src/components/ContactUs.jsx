@@ -6,7 +6,7 @@ import emailColorImg from '../assets/emailColor.png';
 export default function ContactUs() {
     return (
         <>
-            <div id="contactUs" className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div id="contactUs" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
                 <div className="w-[70%] ">
 

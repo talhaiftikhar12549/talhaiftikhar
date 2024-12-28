@@ -1,5 +1,10 @@
 export default function NavBar() {
 
+    function hanldeClickHome() {
+        const Home = document.getElementById('Home');
+        Home.scrollIntoView({ behavior: 'smooth' });
+    }
+
     function hanldeClickAboutMe() {
         const aboutMe = document.getElementById('aboutMe');
         aboutMe.scrollIntoView({ behavior: 'smooth' });
@@ -31,7 +36,7 @@ export default function NavBar() {
     return (
         <>
             <div className="h-[15vh] flex bg-[#060614] text-[#d9d7d7] justify-around items-center px-20 z-10 relative">
-                <p onClick={() => { console.log("button clicked") }} className="font-bold cursor-pointer hover:text-[#ffffff]">HOME</p>
+                <p onClick={hanldeClickHome} className="font-bold cursor-pointer hover:text-[#ffffff]">HOME</p>
                 <p onClick={hanldeClickAboutMe} className="font-bold cursor-pointer hover:text-[#ffffff]">ABOUT ME</p>
                 <p onClick={hanldeClickExperience} className="font-bold cursor-pointer hover:text-[#ffffff]">EXPERIENCE</p>
                 <p onClick={hanldeClickProjects} className="font-bold cursor-pointer hover:text-[#ffffff]">PROJECTS</p>
