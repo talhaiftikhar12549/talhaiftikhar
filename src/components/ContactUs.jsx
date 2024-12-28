@@ -1,7 +1,7 @@
 export default function ContactUs() {
     return (
         <>
-            <div className="h-[80vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div id="contactUs" className="h-[80vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
                 <div className="w-[70%] ">
 

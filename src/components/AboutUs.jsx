@@ -1,5 +1,13 @@
 import collageImg from '../assets/hobbies collage.png'
 export default function AboutUs() {
+
+    const handleClick = () => {
+        const contactUs = document.getElementById('contactUs');
+        contactUs.scrollIntoView({ behavior: 'smooth' });
+        console.log(contactUs);
+        console.log('clicked');
+    }
+
     return (
         <>
 
@@ -21,7 +29,7 @@ export default function AboutUs() {
                             </p>
 
 
-                            <div className="cursor-pointer group relative w-32 h-12 my-10">
+                            <div onClick={handleClick} className="cursor-pointer group relative w-32 h-12 my-10">
                                 <div className="absolute inset-0 flex items-center justify-center z-30">
                                     <p className="font-bold text-lg group-hover:text-[#2c2ebf] transition-colors duration-300">Contact Me</p>
                                 </div>

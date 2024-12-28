@@ -1,18 +1,20 @@
 import talhaPic from "../assets/talha crop.jpg"
 import TypingTextAnimation from "./TypingTextAnimation"
 export default function HeroSection() {
-const projectsSection = document.getElementById('projectsSection');
-const handleClick = () => {
-    if (projectsSection) {
+
+    // debugger
+    const handleClick = () => {
+        const projectsSection = document.getElementById('projectsSection');
         projectsSection.scrollIntoView({ behavior: 'smooth' });
-      }
-}
+        console.log(projectsSection);
+        console.log('clicked');
+    }
     const handleDownload = () => {
         const link = document.createElement("a");
-        link.href = "/Resume/Muhammad Talha Resume.pdf"; 
+        link.href = "/Resume/Muhammad Talha Resume.pdf";
         link.download = "Talha Resume.pdf";
         link.click();
-      };
+    };
 
     return (
         <>
@@ -30,12 +32,12 @@ const handleClick = () => {
                         <div className="flex justify-around w-[100%] py-8">
 
                             <div className="cursor-pointer group relative w-32 h-12">
-                            <a href="https://www.linkedin.com/in/muhammadtalha12549" target="_blank" rel="noopener noreferrer">
-                                <div className="absolute inset-0 flex items-center justify-center z-30">
-                                    <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">Let's Connect</p>
-                                </div>
-                                <div className="bg-[#fefefe] w-32 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>
-                                <div className="bg-[#2c2ebf] w-32 h-12 absolute group-hover:bg-[#ffffff] transition-colors duration-300"></div>
+                                <a href="https://www.linkedin.com/in/muhammadtalha12549" target="_blank" rel="noopener noreferrer">
+                                    <div className="absolute inset-0 flex items-center justify-center z-30">
+                                        <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">Let's Connect</p>
+                                    </div>
+                                    <div className="bg-[#fefefe] w-32 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>
+                                    <div className="bg-[#2c2ebf] w-32 h-12 absolute group-hover:bg-[#ffffff] transition-colors duration-300"></div>
                                 </a>
                             </div>
 
