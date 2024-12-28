@@ -11,7 +11,7 @@ export default function FooterBar() {
                 </div>
 
                 <div className="">
-                    <p className="text-md font-semibold">© 2024-2025 Talha Iftikhar. All Rights Reserved.</p>
+                    <p className="text-md font-semibold">© 2025-2026 Talha Iftikhar. All Rights Reserved.</p>
                 </div>
 
             </footer>
