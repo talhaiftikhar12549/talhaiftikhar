@@ -239,7 +239,7 @@ export default function ProjectSection() {
 
                                 <div className="w-[65%] py-0 px-8 ">
 
-                                    <p className="text-lg font-bold">Fabric Js Canvas</p>
+                                    <p className="text-lg font-bold">Fabric Kitchensink</p>
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">

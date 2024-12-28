@@ -1,7 +1,7 @@
 export default function EducationSkills() {
     return (
         <>
-            <div className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+            <div id="Education&Skills" className="h-[100vh] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
                 <div className="w-[70%] ">
 
@@ -9,12 +9,38 @@ export default function EducationSkills() {
                         <p class=" text-3xl py-2 [#2c2ebf] relative">EDUCATION & SKILLS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
 
-                    <div className="flex py-2 flex-col md:flex-row justify-between items-center w-[100%]">
+                    <div className="flex py-2 flex-col md:flex-row  w-[100%]">
 
                         {/* Education Section */}
 
-                        <div className="w-[40%] flex justify-center">
-                            meow
+                        <div className="w-[40%]">
+
+                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614]  py-8 px-4 ">
+                                <div className="pt-4">
+                                    <p className="text-md font-semibold">Bachelor's in Computer Science</p>
+                                    <p className="text-sm py-2">HITEC University</p>
+                                </div>
+
+
+                            </div>
+                            {/* <div className="bg-[#2a2a33] w-[90%] h-[1px]"></div> */}
+                            <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614] py-8 px-4 ">
+                                <div className="pt-6">
+                                    <p className="text-md font-semibold">Pre-Engineering (College)</p>
+                                    <p className="text-sm py-2">Sir Syed College</p>
+                                </div>
+
+
+                            </div>
+                            <div className="w-[90%] bg-[#060614] py-8 px-4 ">
+                                <div className="pt-6">
+                                    <p className="text-md font-semibold">Pre-Engineering (College)</p>
+                                    <p className="text-sm py-2">Sir Syed College</p>
+                                </div>
+
+
+                            </div>
+
                         </div>
 
                         {/* Education Section */}
