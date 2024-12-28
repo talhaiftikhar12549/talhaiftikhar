@@ -46,8 +46,11 @@ export default function MyExperience() {
 
 
                         <div className="flex w-[100%]">
-                            <div className="w-[20%] flex items-center justify-center"><img className="h-[100px] w-[150px]" src={UjalaLogo} alt="" /></div>
+
+                            <div className="w-[20%] flex items-center justify-center"><img className="h-[100px] w-[150px]" src={UjalaLogo} /></div>
+
                             <div className="w-[70%]  ">
+
                                 <div className="py-2">
                                     <p className="text-lg font-bold">IT Admin & Junior Accountant ( volunteer )</p>
                                     <p className="text-sm "><span className="cursor-pointer text-[#2c4ebf] hover:text-[#2c2ebf]"><a href="https://www.ujalaschool.org/" target="_blank" rel="noopener noreferrer"> Ujala Elementary School</a></span>  | On-site | Sep 2021 – Present</p>
@@ -62,6 +65,7 @@ export default function MyExperience() {
 
 
                             </div>
+
                             <div className="w-[10%] ">
                                 <button className="bg-[#2c2ebf] py-1 px-2 text-sm">Part Time</button>
                             </div>
