@@ -21,7 +21,7 @@ export default function ProjectSection() {
     return (
         <>
             <div id="projectsSection" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
-                <div className="w-[90%] lg:w-[70%] ">
+                <div className="w-[90%] xl:w-[85%] 2xl:w-[70%] ">
                     <div className="py-10 ">
                         <p class=" text-3xl py-2 [#2c2ebf] relative">PROJECTS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
@@ -57,7 +57,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Scrum Board</p>
 
@@ -89,7 +89,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Project Mangement Tool</p>
 
@@ -130,7 +130,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Weather Walley</p>
 
@@ -162,7 +162,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Food X</p>
 
@@ -205,7 +205,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Talha Portfolio</p>
 
@@ -237,7 +237,7 @@ export default function ProjectSection() {
                                     <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Fabric Kitchensink</p>
 
