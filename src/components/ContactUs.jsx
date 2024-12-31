@@ -19,7 +19,7 @@ export default function ContactUs() {
         <>
             <div id="contactUs" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
 
-                <div className="w-[70%] ">
+                <div className="w-[90%] lg:w-[70%] ">
 
                     <div className="py-10 ">
                         <p class=" text-3xl py-2 [#2c2ebf] relative">CONTACT ME. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
@@ -34,14 +34,14 @@ export default function ContactUs() {
                             <div className="w-[100%] px-8">
                                 <p className="text-3xl font-semibold">Let's connect.</p>
                                 <div className='py-4'>
-                                    <div className="py-4 px-6 w-[100%] flex item-center">
+                                    <div className="py-4 px-0 xl:px-4 w-[100%] flex item-center">
                                         <img className="px-2" src={locationcolorImg} alt="" />
 
                                         <p className="text-md px-2 font-semibold">Pakistan</p>
 
                                     </div>
 
-                                    <div className="py-4 px-6 w-[100%] flex item-center">
+                                    <div className="py-4 px-0 xl:px-4 w-[100%] flex item-center">
                                         <img className="px-2" src={mailcolorImg} alt="" />
 
                                         <p className="text-md px-2 font-semibold">talhaiftikhar12549@gmail.com</p>
@@ -103,7 +103,7 @@ export default function ContactUs() {
                                 <p className="text-3xl font-semibold">Reach out to me.</p>
 
 
-                                <div className="py-12 px-2 2xl:px-10 w-[100%] h-[100%] flex items-center justify-between 2xl:justify-evenly">
+                                <div className="py-12 2xl:px-10 w-[100%] h-[100%] flex items-center justify-between 2xl:justify-around">
 
                                     <div className="cursor-pointer group relative w-52 h-12 ">
                                         <a

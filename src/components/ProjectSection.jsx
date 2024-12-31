@@ -21,7 +21,7 @@ export default function ProjectSection() {
     return (
         <>
             <div id="projectsSection" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
-                <div className="w-[70%] ">
+                <div className="w-[90%] lg:w-[70%] ">
                     <div className="py-10 ">
                         <p class=" text-3xl py-2 [#2c2ebf] relative">PROJECTS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
@@ -61,17 +61,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Scrum Board</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vue.Js</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Bootstrap</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
@@ -93,17 +93,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Project Mangement Tool</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Bootstrap</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
@@ -134,17 +134,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Weather Walley</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vue.Js</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>Node</p>
                                         </div>
                                     </div>
@@ -166,17 +166,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Food X</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
@@ -209,17 +209,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Talha Portfolio</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Particle.Js</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
@@ -241,17 +241,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Fabric Kitchensink</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Fabric.Js</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
                                     </div>
@@ -282,14 +282,14 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Netflix Clone</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>HTML/CSS</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>Tailwind</p>
                                         </div>
 
@@ -312,17 +312,17 @@ export default function ProjectSection() {
 
                                     <p className="text-lg font-bold">Little Lemon</p>
 
-                                    <div className="flex items-center py-3 w-[100%]">
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
+                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>JavaScript</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>TailWind</p>
                                         </div>
-                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
+                                        <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vite</p>
                                         </div>
                                     </div>
