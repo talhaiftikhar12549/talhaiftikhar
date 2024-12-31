@@ -50,43 +50,43 @@ export default function ContactUs() {
                                 </div>
 
                                 <div className="py-4 px-6 w-[100%] flex justify-evenly item-center">
-                                    <a href="https://github.com/talhaiftikhar12549" target="_blank" rel="noopener noreferrer"> 
-                                    <img
-                                    
-                                    className="cursor-pointer"
-                                    src={isHoveredGithub ? githubColor : githubWhite}
-                                    alt="GitHub Icon"
-                                    onMouseEnter={() => setIsHoveredGithub(true)}
-                                    onMouseLeave={() => setIsHoveredGithub(false)}
-                                />
+                                    <a href="https://github.com/talhaiftikhar12549" target="_blank" rel="noopener noreferrer">
+                                        <img
+
+                                            className="cursor-pointer"
+                                            src={isHoveredGithub ? githubColor : githubWhite}
+                                            alt="GitHub Icon"
+                                            onMouseEnter={() => setIsHoveredGithub(true)}
+                                            onMouseLeave={() => setIsHoveredGithub(false)}
+                                        />
                                     </a>
-                                    <a href="https://www.linkedin.com/in/muhammadtalha12549/" target="_blank" rel="noopener noreferrer"> 
-                                    <img
-                                        className="cursor-pointer"
-                                        src={isHoveredLinkedin ? linkedinColor : linkedinWhite}
-                                        alt="LinkedIn Icon"
-                                        onMouseEnter={() => setIsHoveredLinkedin(true)}
-                                        onMouseLeave={() => setIsHoveredLinkedin(false)}
-                                    />
-                                     </a>
-                                    <a href="https://www.instagram.com/talhaiftikhar12549/" target="_blank" rel="noopener noreferrer"> 
-                                    <img
-                                        className="cursor-pointer"
-                                        src={isHoveredInsta ? instaColor : instaWhite}
-                                        alt="Insta Icon"
-                                        onMouseEnter={() => setIsHoveredInsta(true)}
-                                        onMouseLeave={() => setIsHoveredInsta(false)}
-                                    />
-                                     </a>
-                                    <a href="mailto:talhaiftikhar12549@gmail.com?subject=Hello%20Talha&body=Hi%20there,%20I%20wanted%20to%20reach%20out." target="_blank" rel="noopener noreferrer"> 
-                                    <img
-                                        className="cursor-pointer"
-                                        src={isHoveredGmail ? gmailColor : gmailWhite}
-                                        alt="Gmail Icon"
-                                        onMouseEnter={() => setIsHoveredGmail(true)}
-                                        onMouseLeave={() => setIsHoveredGmail(false)}
-                                    />
-                                     </a>
+                                    <a href="https://www.linkedin.com/in/muhammadtalha12549/" target="_blank" rel="noopener noreferrer">
+                                        <img
+                                            className="cursor-pointer"
+                                            src={isHoveredLinkedin ? linkedinColor : linkedinWhite}
+                                            alt="LinkedIn Icon"
+                                            onMouseEnter={() => setIsHoveredLinkedin(true)}
+                                            onMouseLeave={() => setIsHoveredLinkedin(false)}
+                                        />
+                                    </a>
+                                    <a href="https://www.instagram.com/talhaiftikhar12549/" target="_blank" rel="noopener noreferrer">
+                                        <img
+                                            className="cursor-pointer"
+                                            src={isHoveredInsta ? instaColor : instaWhite}
+                                            alt="Insta Icon"
+                                            onMouseEnter={() => setIsHoveredInsta(true)}
+                                            onMouseLeave={() => setIsHoveredInsta(false)}
+                                        />
+                                    </a>
+                                    <a href="mailto:talhaiftikhar12549@gmail.com?subject=Hello%20Talha&body=Hi%20there,%20I%20wanted%20to%20reach%20out." target="_blank" rel="noopener noreferrer">
+                                        <img
+                                            className="cursor-pointer"
+                                            src={isHoveredGmail ? gmailColor : gmailWhite}
+                                            alt="Gmail Icon"
+                                            onMouseEnter={() => setIsHoveredGmail(true)}
+                                            onMouseLeave={() => setIsHoveredGmail(false)}
+                                        />
+                                    </a>
                                 </div>
 
                             </div>
@@ -103,33 +103,20 @@ export default function ContactUs() {
                                 <p className="text-3xl font-semibold">Reach out to me.</p>
 
 
-                                <div className="py-12 px-10 w-[100%] flex justify-between">
+                                <div className="py-12 px-2 2xl:px-10 w-[100%] h-[100%] flex items-center justify-between 2xl:justify-evenly">
 
-                                    <div className="cursor-pointer group relative w-52 h-12">
+                                    <div className="cursor-pointer group relative w-52 h-12 ">
                                         <a
                                             href="mailto:talhaiftikhar12549@gmail.com?subject=Hello%20Talha&body=Hi%20there,%20I%20wanted%20to%20reach%20out."
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            {/* Content that changes on hover */}
                                             <div className="absolute inset-0 flex items-center justify-center z-30">
                                                 <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">
                                                     Send me an Email
                                                 </p>
-                                                {/* Hover-dependent image display */}
-                                                {/* <img
-        className="px-2 duration-300 hidden group-hover:block group-hover:opacity-100 transition-opacity duration-300"
-       onMouseEnter={src={emailColorImg}}
-        alt="Color Email Icon"
-      /> */}
-                                                {/* <img
-        className="px-2 duration-300 block group-hover:hidden group-hover:opacity-100 transition-opacity duration-300"
-        src={emailWhiteImg}
-        alt="White Email Icon"
-      /> */}
-                                            </div>
 
-                                            {/* Background changes on hover */}
+                                            </div>
                                             <div className="bg-[#fefefe] w-52 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>
                                             <div className="bg-[#2c2ebf] w-52 h-12 absolute group-hover:bg-[#ffffff] transition-colors duration-300"></div>
                                         </a>
@@ -137,10 +124,12 @@ export default function ContactUs() {
 
 
 
-                                    <div className="cursor-pointer group relative w-52 h-12">
+                                    <div className="cursor-pointer group relative w-52 h-12 ">
                                         <a href="https://www.linkedin.com/in/muhammadtalha12549" target="_blank" rel="noopener noreferrer">
                                             <div className="absolute inset-0 flex items-center justify-center z-30">
-                                                <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">Connect on LinkedIn</p>
+                                                <p className="font-bold group-hover:text-[#2c2ebf] transition-colors duration-300">
+                                                    Connect on LinkedIn
+                                                </p>
 
                                             </div>
                                             <div className="bg-[#fefefe] w-52 h-12 absolute mt-1 ml-1 group-hover:bg-[#2c2ebf] transition-colors duration-300"></div>

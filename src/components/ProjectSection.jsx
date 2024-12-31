@@ -63,7 +63,7 @@ export default function ProjectSection() {
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
-                                            <p>Vue 3</p>
+                                            <p>Vue.Js</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>JavaScript</p>
@@ -136,7 +136,7 @@ export default function ProjectSection() {
 
                                     <div className="flex items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mr-0.5 bg-[#262626]">
-                                            <p>Vue 3</p>
+                                            <p>Vue.Js</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>JavaScript</p>
@@ -214,7 +214,7 @@ export default function ProjectSection() {
                                             <p>React</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
-                                            <p>Particle Js</p>
+                                            <p>Particle.Js</p>
                                         </div>
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 mx-0.5 bg-[#262626]">
                                             <p>Tailwind</p>
