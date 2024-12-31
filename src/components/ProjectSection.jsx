@@ -48,10 +48,10 @@ export default function ProjectSection() {
                     <div className=" py-8">
                         {/* project row 1 */}
 
-                        <div className="flex py-6 w-[100%] justify-between ">
+                        <div className="flex flex-col gap-12 md:gap-0  md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
@@ -83,7 +83,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
@@ -121,10 +121,10 @@ export default function ProjectSection() {
 
                         {/* project row 2 */}
 
-                        <div className="flex py-6 w-[100%] justify-between ">
+                        <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
@@ -156,7 +156,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
@@ -196,10 +196,10 @@ export default function ProjectSection() {
 
                         {/* project row 3 */}
 
-                        <div className="flex py-6 w-[100%] justify-between ">
+                        <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
@@ -231,7 +231,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
@@ -269,16 +269,16 @@ export default function ProjectSection() {
 
                         {/* project row 4 */}
 
-                        <div className="flex py-6 w-[100%] justify-between ">
+                        <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Netflix Clone</p>
 
@@ -302,13 +302,13 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={littleLemon} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-8 ">
+                                <div className="w-[65%] py-0 px-4 ">
 
                                     <p className="text-lg font-bold">Little Lemon</p>
 

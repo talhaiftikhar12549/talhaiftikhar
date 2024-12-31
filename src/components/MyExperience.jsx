@@ -29,7 +29,7 @@ export default function MyExperience() {
                                     </ul>
                                 </div>
                                 <div className="w-[10%] ">
-                                    <button className="bg-[#2c2ebf] py-1 px-2 text-sm cursor-default">Full Time</button>
+                                    <button className="bg-[#2c2ebf] py-1 px-1 text-xs lg:text-sm cursor-default">Full Time</button>
                                 </div>
 
                             </div>
@@ -67,7 +67,7 @@ export default function MyExperience() {
                                 </div>
 
                                 <div className="w-[10%] ">
-                                    <button className="bg-[#2c2ebf] py-1 px-2 text-sm cursor-default">Part Time</button>
+                                    <button className="bg-[#2c2ebf] py-1 px-1 text-xs lg:text-sm cursor-default">Part Time</button>
                                 </div>
 
                             </div>
@@ -95,7 +95,7 @@ export default function MyExperience() {
                                     </ul>
                                 </div>
                                 <div className="w-[10%] ">
-                                    <button className="bg-[#2c2ebf] py-1 px-2 text-sm cursor-default">Part Time</button>
+                                    <button className="bg-[#2c2ebf] py-1 px-1 text-xs lg:text-sm cursor-default">Part Time</button>
                                 </div>
 
                             </div>
