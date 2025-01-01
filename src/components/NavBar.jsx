@@ -52,7 +52,7 @@ export default function NavBar() {
     ];
     return (
         <>
-            <div className='h-[15vh]  bg-[#060614] w-[100%] px-5 xl:px-20 text-[#d9d7d7] '>
+            <div className='h-[10vh] md:h-[15vh]  bg-[#060614] w-[100%] px-5 xl:px-20 text-[#d9d7d7] '>
                 <div className='md:flex hidden md:flex-row  relative z-10 h-[100%] w-[100%]  justify-between lg:justify-around items-center '>
                     <p onClick={hanldeClickHome} className=" font-bold cursor-pointer hover:text-[#ffffff]">HOME</p>
                     <p onClick={hanldeClickAboutMe} className=" font-bold cursor-pointer hover:text-[#ffffff]">ABOUT ME</p>

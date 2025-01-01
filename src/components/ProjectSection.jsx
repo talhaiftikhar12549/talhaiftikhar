@@ -30,10 +30,10 @@ export default function ProjectSection() {
 
                     {isVisible && <div className="border-2 py-4 my-6 border-[#2c2ebf] w-[100%] bg-[#060614]">
 
-                        <div className="flex justify-between items-center px-4">
+                        <div className="flex justify-between items-center px-0 md:px-4">
                             <div className="flex items-center">
-                                <img className="px-6" src={iPic} alt="I Icon" />
-                                <p>Click on Project to view more details</p>
+                                <img className="px-2 md:px-6" src={iPic} alt="I Icon" />
+                                <p className="text-xs md:text-md">Click on Project to view more details</p>
                             </div>
                             <div className="px-2">
                                 <img onClick={handleDelete} className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" />
@@ -51,17 +51,17 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0  md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Scrum Board</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Scrum Board</p>
 
-                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1 items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vue.Js</p>
                                         </div>
@@ -76,24 +76,24 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+                                    <p className="text-sm text-center md:text-left">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
 
                                 </div>
 
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Project Mangement Tool</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Project Mangement Tool</p>
 
-                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1 items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
@@ -108,7 +108,7 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
+                                    <p className="text-sm text-center md:text-left">Cloned the Redmine Agile Board to track changes during development. Implemented drag & drop functionality to visualize changes.</p>
 
 
                                 </div>
@@ -124,17 +124,17 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Weather Walley</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Weather Walley</p>
 
-                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Vue.Js</p>
                                         </div>
@@ -149,24 +149,24 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Weather Forecasting app that tracks weekly weather around the globe. Integrated the OpenWeather API with a Leaflet map to track location.</p>
+                                    <p className="text-sm text-center md:text-left">Weather Forecasting app that tracks weekly weather around the globe. Integrated the OpenWeather API with a Leaflet map to track location.</p>
 
                                 </div>
 
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Food X</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Food X</p>
 
-                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
@@ -181,7 +181,7 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Online food ordering website that serves Oriental, Continental, and Chinese cuisine. Get your favorite food delivered to your doorstep. </p>
+                                    <p className="text-sm text-center md:text-left">Online food ordering website that serves Oriental, Continental, and Chinese cuisine. Get your favorite food delivered to your doorstep. </p>
 
 
                                 </div>
@@ -199,17 +199,17 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Talha Portfolio</p>
+                                    <p className="text-lg  text-center md:text-left font-bold">Talha Portfolio</p>
 
-                                    <div className="flex flex-wrap gap-1 items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1 items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
@@ -224,24 +224,24 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">My personal portfolio website, built from scratch using React, showcases my skill set in an aesthetic and visually appealing way.</p>
+                                    <p className="text-sm text-center md:text-left">My personal portfolio website, built from scratch using React, showcases my skill set in an aesthetic and visually appealing way.</p>
 
                                 </div>
 
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Fabric Kitchensink</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Fabric Kitchensink</p>
 
-                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>Fabric.Js</p>
                                         </div>
@@ -256,7 +256,7 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Designed and created objects freely on a canvas. Integrated the Fabric.js library with React.js to build an interactive canvas application. </p>
+                                    <p className="text-sm text-center md:text-left">Designed and created objects freely on a canvas. Integrated the Fabric.js library with React.js to build an interactive canvas application. </p>
 
 
                                 </div>
@@ -272,17 +272,17 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Netflix Clone</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Netflix Clone</p>
 
-                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1 bg-[#262626]">
                                             <p>HTML/CSS</p>
                                         </div>
@@ -295,24 +295,24 @@ export default function ProjectSection() {
 
                                     </div>
 
-                                    <p className="text-sm">Cloned a Netflix app landing page to replicate its design and functionality. Built the page from scratch using Tailwind CSS. </p>
+                                    <p className="text-sm text-center md:text-left">Cloned a Netflix app landing page to replicate its design and functionality. Built the page from scratch using Tailwind CSS. </p>
 
                                 </div>
 
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
-                                <div className="w-[35%] flex items-center justify-center">
+                                <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={littleLemon} alt="" />
                                 </div>
 
-                                <div className="w-[65%] py-0 px-4 ">
+                                <div className="w-[100%] md:w-[65%] py-0 px-4 ">
 
-                                    <p className="text-lg font-bold">Little Lemon</p>
+                                    <p className="text-lg text-center md:text-left font-bold">Little Lemon</p>
 
-                                    <div className="flex flex-wrap gap-1  items-center py-3 w-[100%]">
+                                    <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
                                         <div className="text-xs group-hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
                                             <p>React</p>
                                         </div>
@@ -327,7 +327,7 @@ export default function ProjectSection() {
                                         </div>
                                     </div>
 
-                                    <p className="text-sm">Make your evening memorable with Little Lemon Restaurant. Order your food or book your table for an aesthetic dine-in experience.</p>
+                                    <p className="text-sm text-center md:text-left">Make your evening memorable with Little Lemon Restaurant. Order your food or book your table for an aesthetic dine-in experience.</p>
 
 
                                 </div>
