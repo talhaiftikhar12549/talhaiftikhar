@@ -26,10 +26,10 @@ export default function ContactUs() {
                     </div>
 
 
-                    <div className="flex py-6 w-[100%] justify-between ">
+                    <div className="flex flex-col lg:flex-row py-6 w-[100%] justify-between ">
 
 
-                        <div className="w-[38%] py-12 px-3 bg-[#060614] flex ">
+                        <div className="w-[100%] lg:w-[38%] my-4 py-12 px-3 bg-[#060614] flex ">
 
                             <div className="w-[100%] px-8">
                                 <p className="text-3xl font-semibold">Let's connect.</p>
@@ -96,14 +96,14 @@ export default function ContactUs() {
                         </div>
 
 
-                        <div className="w-[58%] py-12 px-3 bg-[#060614] flex ">
+                        <div className="w-[100%] lg:w-[58%] my-4 py-12 px-3 bg-[#060614] flex ">
 
                             <div className="w-[100%] px-8">
 
                                 <p className="text-3xl font-semibold">Reach out to me.</p>
 
 
-                                <div className="py-12 2xl:px-10 w-[100%] h-[100%] flex items-center justify-between 2xl:justify-around">
+                                <div className="py-12 2xl:px-10 w-[100%] h-[100%] flex flex-col md:flex-row items-center justify-between 2xl:justify-around">
 
                                     <div className="cursor-pointer group relative w-52 h-12 ">
                                         <a

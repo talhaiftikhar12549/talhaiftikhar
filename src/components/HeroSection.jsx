@@ -19,14 +19,14 @@ export default function HeroSection() {
     return (
         <>
             <section className="text-[#ffffff] absolute inset-0 flex items-center justify-center">
-                <div className="flex items-center pt-24 w-[90%] xl:w-[70%] justify-between">
-                    <div className="w-[55%]  xl:w-[50%]">
+                <div className="flex flex-col-reverse md:flex-row items-center pt-24 sm:pt-32 md:pt-24 md:h-[100%] w-[90%] xl:w-[70%] justify-between">
+                    <div className="w-[90%] md:w-[55%]  xl:w-[50%]">
                         <p className="text-2xl font-bold">Hello 👋, I'm</p>
                         <p className="text-6xl font-bold py-2">Talha</p>
-                        <div className="font-bold text-xl lg:text-2xl py-4">
+                        <div className="font-bold text-lg md:text-xl lg:text-2xl py-4">
                             <TypingTextAnimation />
                         </div>
-                        <p className="text-lg">
+                        <p className="text-sm md:text-lg">
                             Meta Certified Front-End Engineer, turning pixels into pages with a parallel of 3+ years experience in tech. I am a self-taught developer who loves to build things that live on the internet.
                         </p>
                         <div className="flex justify-around w-[100%] py-8">

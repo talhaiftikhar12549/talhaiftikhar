@@ -1,4 +1,12 @@
+import React, { useState } from 'react';
+
 export default function NavBar() {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
+    };
 
     function hanldeClickHome() {
         const Home = document.getElementById('Home');
@@ -35,13 +43,16 @@ export default function NavBar() {
 
     return (
         <>
-            <div className="h-[15vh] w-[100%] flex bg-[#060614] text-[#d9d7d7] justify-between lg:justify-around items-center px-5 xl:px-20 z-10 relative">
-                <p onClick={hanldeClickHome} className="font-bold cursor-pointer hover:text-[#ffffff]">HOME</p>
-                <p onClick={hanldeClickAboutMe} className="font-bold cursor-pointer hover:text-[#ffffff]">ABOUT ME</p>
-                <p onClick={hanldeClickExperience} className="font-bold cursor-pointer hover:text-[#ffffff]">EXPERIENCE</p>
-                <p onClick={hanldeClickProjects} className="font-bold cursor-pointer hover:text-[#ffffff]">PROJECTS</p>
-                <p onClick={hanldeClickEducation} className="font-bold cursor-pointer hover:text-[#ffffff]">EDUCATION</p>
-                <p onClick={hanldeClickContactMe} className="font-bold cursor-pointer hover:text-[#ffffff]">CONTACT</p>
+        <div className='h-[15vh]  bg-[#060614] w-[100%] relative '>
+            <div className='flex flex-row px-5 xl:px-20 relative z-10 h-[100%] w-[100%] text-[#d9d7d7] justify-between lg:justify-around items-center '>
+            <p onClick={hanldeClickHome} className=" font-bold cursor-pointer hover:text-[#ffffff]">HOME</p>
+                <p onClick={hanldeClickAboutMe} className=" font-bold cursor-pointer hover:text-[#ffffff]">ABOUT ME</p>
+                <p onClick={hanldeClickExperience} className=" font-bold cursor-pointer hover:text-[#ffffff]">EXPERIENCE</p>
+                <p onClick={hanldeClickProjects} className=" font-bold cursor-pointer hover:text-[#ffffff]">PROJECTS</p>
+                <p onClick={hanldeClickEducation} className=" font-bold cursor-pointer hover:text-[#ffffff]">EDUCATION</p>
+                <p onClick={hanldeClickContactMe} className=" font-bold cursor-pointer hover:text-[#ffffff]">CONTACT</p>
+            </div>
+                
 
             </div>
         </>

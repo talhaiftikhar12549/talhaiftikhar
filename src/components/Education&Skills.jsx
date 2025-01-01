@@ -14,7 +14,7 @@ export default function EducationSkills() {
 
                         {/* Education Section */}
 
-                        <div className="w-[40%]">
+                        <div className="w-[100%] md:w-[40%]">
 
                             <div className="w-[90%] border-1 border-b border-[#2a2a33] bg-[#060614]  py-8 px-4 relative">
 
@@ -65,7 +65,7 @@ export default function EducationSkills() {
 
                         {/* My SKills Section */}
 
-                        <div className="w-[60%] flex-col">
+                        <div className="w-[100%] my-8 md:my-0 md:w-[60%] flex-col">
                             <p className="text-3xl font-bold">My skills</p>
                             <p className="py-4">I am a language-agnostic developer, primarily focused on logic. However, I am fluent in working with different technologies and frameworks, including C++, JavaScript/TypeScript, Python, and more.</p>
                             <div className="flex flex-row py-4 justify-between w-[100%]">
