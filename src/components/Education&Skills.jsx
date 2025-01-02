@@ -92,6 +92,7 @@ export default function EducationSkills() {
                                     <p className="text-xl py-2 font-bold">Tools</p>
                                     <ul className="list-disc pl-8 pt-2">
                                         <li>RESTful APIs</li>
+                                        <li>Postman</li>
                                         <li>Git/GitHub</li>
                                         <li>Redmine</li>
                                         <li>Slack</li>
