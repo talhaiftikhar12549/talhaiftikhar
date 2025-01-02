@@ -8,7 +8,7 @@ export default function MyExperience() {
             <div id="experience" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
                 <div className="w-[90%] xl:w-[85%] 2xl:w-[70%] ">
                     <div className="py-10 ">
-                        <p class=" text-3xl py-2 [#2c2ebf] relative">EXPERIENCE. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
+                        <p className=" text-3xl py-2 [#2c2ebf] relative">EXPERIENCE. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
 
                     <div className="pb-10">

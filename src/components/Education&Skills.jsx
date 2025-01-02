@@ -7,7 +7,7 @@ export default function EducationSkills() {
                 <div className="w-[90%] xl:w-[85%] 2xl:w-[70%] ">
 
                     <div className="py-10 ">
-                        <p class=" text-3xl py-2 [#2c2ebf] relative">EDUCATION & SKILLS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
+                        <p className=" text-3xl py-2 [#2c2ebf] relative">EDUCATION & SKILLS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
                     </div>
 
                     <div className="flex py-2 flex-col md:flex-row  w-[100%]">
