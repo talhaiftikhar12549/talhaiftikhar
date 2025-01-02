@@ -66,7 +66,12 @@ export default function NavBar() {
                     <p className='text-lg font-bold'> &lt; Dev Talha / &gt; </p>
 
 
-                    <img onClick={toggleMenu} className='cursor-pointer' src={hamBurgerMenu} alt="" />
+                    {/* <img onClick={toggleMenu} className='cursor-pointer' src={hamBurgerMenu} alt="" /> */}
+                    <div onClick={toggleMenu} className='bg-[#2c2ebf] h-[40px] w-[40px] flex flex-col justify-center items-center cursor-pointer rounded'>
+                        <div className='px-3 my-0.5 py-[1px]  bg-[#ffffff]'></div>
+                        <div className='px-3 my-0.5 py-[1px]  bg-[#ffffff]'></div>
+                        <div className='px-3 my-0.5 py-[1px]  bg-[#ffffff]'></div>
+                    </div>
 
                     {isOpen && (
                         <ul className="absolute right-0 top-16 bg-[#060614] border border-[#2c2ebf] rounded-md shadow-lg mt-2 w-48 z-10">
