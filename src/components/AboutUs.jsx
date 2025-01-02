@@ -65,7 +65,7 @@ export default function AboutUs() {
                             <span className="absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]"></span>
                         </p>
                         <p className="py-6 text-xl font-bold">My Journey as a Software Engineer</p>
-                        <p className="text-md md:text-lg">
+                        <p className="text-sm md:text-lg">
                             After completing my pre-Engineering studies, I decided to pursue my career as a computer scientist at HITEC University. I started learning web development and have created some cool web apps using platforms like React, Vue, and Node. Aside from coding, I spend most of my time doing charity work.
                         </p>
                         <div className='w-[100%] flex justify-center md:justify-start items-center'>

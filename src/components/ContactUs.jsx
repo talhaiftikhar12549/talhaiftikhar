@@ -37,14 +37,14 @@ export default function ContactUs() {
                                     <div className="py-4 px-0 xl:px-4 w-[100%] flex item-center">
                                         <img className="px-2" src={locationcolorImg} alt="" />
 
-                                        <p className="text-xs md:text-md px-2 font-semibold">Pakistan</p>
+                                        <p className="text-xs md:text-sm lg:text-base px-2 font-semibold">Pakistan</p>
 
                                     </div>
 
                                     <div className="py-4 px-0 xl:px-4 w-[100%] flex item-center">
                                         <img className="px-2" src={mailcolorImg} alt="" />
 
-                                        <p className="text-xs md:text-md px-2 font-semibold">talhaiftikhar12549@gmail.com</p>
+                                        <p className="text-xs md:text-sm lg:text-base px-2 font-semibold">talhaiftikhar12549@gmail.com</p>
 
                                     </div>
                                 </div>

@@ -33,7 +33,7 @@ export default function ProjectSection() {
                         <div className="flex justify-between items-center px-0 md:px-4">
                             <div className="flex items-center">
                                 <img className="px-2 md:px-6" src={iPic} alt="I Icon" />
-                                <p className="text-xs md:text-md">Click on Project to view more details</p>
+                                <p className="text-xs md:text-md lg:text-lg">Click on Project to view more details</p>
                             </div>
                             <div className="px-2">
                                 <img onClick={handleDelete} className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" />
