@@ -9,10 +9,22 @@ import portfolioLogo from "../assets/Talha Portfolio Logo.png"
 import foodxLogo from "../assets/Foodx Logo.png"
 import littleLemon from "../assets/Little Lemon.png"
 import fabricCanvas from "../assets/FabricjsCanvas.png"
+import ProjectModal from "../components/ProjectModal"
 import { useState, useRef } from "react"
 export default function ProjectSection() {
 
     const [isVisible, setIsVisible] = useState(true);
+    const [modalOpener, setModalOpener] = useState(false);
+
+    const handleModalClick = (e) => {
+        if (e.target === e.currentTarget) {
+            setModalOpener(false);
+        }
+    };
+
+    const openModal = () => {
+        setModalOpener(true);
+    };
 
     const handleDelete = () => {
         setIsVisible(false);
@@ -21,6 +33,8 @@ export default function ProjectSection() {
     return (
         <>
             <div id="projectsSection" className="h-[100%] bg-[#0e0e1a] text-[#d9d7d7] flex flex-col items-center py-10">
+                {/* {modalOpener && <ProjectModal  onClose={()=>setModalOpener(false)} />} */}
+
                 <div className="w-[90%] xl:w-[85%] 2xl:w-[70%] ">
                     <div className="py-10 ">
                         <p class=" text-3xl py-2 [#2c2ebf] relative">PROJECTS. <span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
@@ -51,7 +65,7 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0  md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={scrumBoard} alt="" />
@@ -83,7 +97,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
@@ -124,7 +138,7 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={weatherWalley} alt="" />
@@ -156,7 +170,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={foodxLogo} alt="" />
@@ -199,7 +213,7 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={portfolioLogo} alt="" />
@@ -231,7 +245,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%] py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={fabricCanvas} alt="" />
@@ -272,7 +286,7 @@ export default function ProjectSection() {
                         <div className="flex flex-col gap-12 md:gap-0 md:flex-row py-6 w-[100%] justify-between ">
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={netflixLogo} alt="" />
@@ -302,7 +316,7 @@ export default function ProjectSection() {
                             </div>
 
 
-                            <div className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
+                            <div onClick={openModal} className="w-[100%] md:w-[48%]  py-12 px-3 bg-[#060614] border-2 border-[#060614] group flex flex-col md:flex-row hover:border-[#2c2ebf] transition-colors duration-300 cursor-pointer" title="Click to view more detail.">
 
                                 <div className="w-[100%] md:w-[35%] flex items-center justify-center">
                                     <img className="h-[150px] w-[150px]" src={littleLemon} alt="" />
@@ -346,7 +360,7 @@ export default function ProjectSection() {
 
                 </div>
 
-        
+
 
 
 
@@ -356,6 +370,32 @@ export default function ProjectSection() {
 
 
             </div>
+
+            {modalOpener && (
+                <div
+                    onClick={handleModalClick}
+                    className="modal bg-[#000000] bg-opacity-30 backdrop-blur-sm inset-0 fixed z-50 text-[#ffffff]"
+                >
+
+
+                    <div
+                        className="modal-content bg-[#060614] w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] mx-auto my-10 p-6 rounded-lg"
+                    >
+                        <span
+                            onClick={() => setModalOpener(false)}
+                            className="close cursor-pointer"
+                        >
+                            &times;
+                        </span>
+                        <h2>Modal Title</h2>
+                        <p>This is the modal content.</p>
+                        <button onClick={()=>{console.log("button clicked in modal")}}>click me </button>
+                    </div>
+
+
+
+                </div>
+            )}
             <div className="bg-[#2a2a33] h-[5px]"></div>
         </>
 
