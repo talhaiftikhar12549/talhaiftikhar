@@ -87,6 +87,8 @@ export default function EducationSkills() {
                                         <li>React</li>
                                         <li>Vue.js</li>
                                         <li>Node/Express</li>
+                                        <li>Tailwindcss</li>
+                                        <li>Bootstrap</li>
                                         <li>SASS</li>
                                     </ul>
                                     <p className="text-xl py-2 font-bold">Tools</p>
