@@ -1,4 +1,3 @@
-import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png"
 import iPic from "../assets/i.png"
 import deletePic from "../assets/delete.png"
 import weatherWalley from "../assets/weather walley logo.png"
@@ -50,7 +49,13 @@ export default function ProjectSection() {
                                 <p className="text-xs md:text-md lg:text-lg">Click on Project to view more details</p>
                             </div>
                             <div className="px-2">
-                                <img onClick={handleDelete} className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" />
+                                {/* <img onClick={handleDelete} className="px-1 cursor-pointer hover:brightness-50 " src={deletePic} alt="I Icon" /> */}
+                                <span
+                                onClick={handleDelete}
+                                className="close cursor-pointer lg:text-4xl hover:brightness-50"
+                            >
+                                &times;
+                            </span>
                             </div>
 
                         </div>
@@ -378,19 +383,61 @@ export default function ProjectSection() {
                 >
 
 
+
                     <div
-                        className="modal-content bg-[#060614] w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] mx-auto my-10 p-6 rounded-lg"
+                        className="modal-content bg-[#060614] w-[90%] md:w-[70%] lg:w-[60%] xl:w-[50%] 2xl:w-[40%] mx-auto my-10 p-6 rounded-lg max-h-[85vh] overflow-y-auto scrollbar-thumb-[#2c2ebf] scrollbar scrollbar-thumb-rounded"
                     >
-                        <span
-                            onClick={() => setModalOpener(false)}
-                            className="close cursor-pointer"
-                        >
-                            &times;
-                        </span>
-                        <h2>Modal Title</h2>
-                        <p>This is the modal content.</p>
-                        <button onClick={()=>{console.log("button clicked in modal")}}>click me </button>
+
+
+                        <div className="w-[100%] flex justify-end items-center">
+                            <span
+                                onClick={() => setModalOpener(false)}
+                                className="close cursor-pointer text-4xl hover:brightness-50"
+                            >
+                                &times;
+                            </span>
+                        </div>
+
+
+                        <div>
+                            <p className=" text-3xl py-2 [#2c2ebf] relative">Scrum board<span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
+                        </div>
+
+
+                        <div className="flex justify-center md:justify-start flex-wrap gap-1  items-center py-3 w-[100%]">
+                            <div className="text-xs hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
+                                <p>React</p>
+                            </div>
+                            <div className="text-xs hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
+                                <p>JavaScript</p>
+                            </div>
+                            <div className="text-xs hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
+                                <p>TailWind</p>
+                            </div>
+                            <div className="text-xs hover:bg-[#2c2ebf] transition-colors duration-300 rounded-sm px-2 py-1  bg-[#262626]">
+                                <p>Vite</p>
+                            </div>
+                        </div>
+
+
+                        <div className="flex  justify-around py-2">
+                            <button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">View it Live</button>
+                            <button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">Github Pages</button>
+                        </div>
+
+                        <div className="w-[100%]  py-12 px-4 flex justify-center ">
+                            <img className="h-[150px] w-[150px]" src={projectmanagement} alt="" />
+                        </div>
+                        <div className=" py-4">
+
+                            <p className=" text-3xl py-2 [#2c2ebf] relative">ABOUT<span className='absolute bg-[#2c2ebf] bottom-0 left-0 h-[2px] w-[100px]'></span></p>
+
+                            <p className="text-sm py-6 text-center md:text-left">A visual tool that helps teams track tasks and monitor progress during project management. Built from scratch using Vue 3 and BootStrap.</p>
+
+                        </div>
+                        <button onClick={() => { console.log("button clicked in modal") }}>click me </button>
                     </div>
+
 
 
 

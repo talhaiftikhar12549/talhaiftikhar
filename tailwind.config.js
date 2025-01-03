@@ -10,5 +10,7 @@ export default {
       sans: ['Rubik', 'ui-sans-serif', 'system-ui'], // Replace 'Roboto' with your font name
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar'),
+  ],
 }
