@@ -84,12 +84,12 @@ export const ProjectRowsJSX = () => {
               ))}
             </div>
             <div className="flex justify-around py-2">
-              <button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">
-                View it Live
-              </button>
-              <button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">
+            <a href={activeProject.live} target="_blank"><button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">
+               View it Live
+              </button></a>
+              <a href={activeProject.github} target="_blank"><button className="bg-[#2c2ebf] py-1 px-2 text-xs lg:text-sm hover:bg-[#ffffff] hover:text-[#2c2ebf] transition-colors duration-300">
                 Github Pages
-              </button>
+              </button></a>
             </div>
             <div className="w-[100%] py-12 px-4 flex justify-center">
               <img className="h-[150px] w-[150px]" src={activeProject.image} alt={activeProject.title} />
