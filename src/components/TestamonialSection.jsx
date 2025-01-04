@@ -53,8 +53,7 @@ const Carousel = () => {
                 <p>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                   <span className="text-[#ffffff] text-xs md:text-sm font-light text-wrap">
-                    Using the Scrum Board has completely transformed the way our team collaborates.
-                    The intuitive design and seamless functionality make tracking tasks effortless.
+                  This man is a genius who keenly jumps over different languages and frameworks. I have witnessed him developing web apps in no time. Wishing him luck for a bright future!
                   </span>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                 </p>
@@ -92,7 +91,7 @@ const Carousel = () => {
                 <p>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                   <span className="text-[#ffffff] text-xs md:text-sm font-light text-wrap">
-                  For the past three years, he has handled all the tech work in this charity school. He is completely confident and delivers all the work on time. Currently, he is developing and maintaining the school's website.
+                  For the past three years, he has handled all the technical work at the school. He has consistently completed all tasks on time. Currently, he is developing and maintaining the school's websites.
                   </span>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                 </p>

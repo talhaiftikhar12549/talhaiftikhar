@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import hamBurgerMenu from '../assets/hamBurgerMenu.png';
+
 export default function NavBar() {
 
     const [isOpen, setIsOpen] = useState(false);
