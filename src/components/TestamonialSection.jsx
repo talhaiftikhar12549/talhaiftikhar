@@ -1,6 +1,7 @@
 import React from "react";
 import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png";
 import usmanPic from "../assets/usmanPic.jpg";
+import raziaPic from "../assets/Capture2.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination, Autoplay } from "swiper/modules";
@@ -85,13 +86,13 @@ const Carousel = () => {
           <SwiperSlide>
             <div className="border-x-[12px] border-[#0e0e1a] bg-[#060614] px-12 w-[100%] h-[70%] flex flex-col lg:flex-row items-center justify-evenly">
               <div className="flex items-center justify-center w-[100%] lg:w-[20%]">
-                <img className="h-[120px] w-[120px]" src={UforiaLogo} alt="Uforia Logo" />
+                <img className="h-[120px] w-[120px]" src={raziaPic} alt="Uforia Logo" />
               </div>
               <div className="flex flex-col w-[80%] text-[#ffffff]">
                 <p>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                   <span className="text-[#ffffff] text-xs md:text-sm font-light text-wrap">
-                    Talha assisted me as a teaching assistant in one of my courses that I taught in Fall 2023 at HITEC University. He is a great person to work with. I wish him the best of luck for his future.
+                  For the past three years, he has handled all the tech work in this charity school. He is completely confident and delivers all the work on time. Currently, he is developing and maintaining the school's website.
                   </span>
                   <span className="text-[#2c2ebf] text-3xl">″</span>
                 </p>
