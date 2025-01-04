@@ -9,6 +9,7 @@ import EducationSkills from './components/Education&Skills';
 import ContactUs from './components/ContactUs';
 import FooterBar from './components/FooterBar';
 import Carousel from './components/TestamonialSection';
+import GallerySection from './components/GallerySection';
 function App() {
 
 
@@ -45,6 +46,9 @@ function App() {
       <MyExperience />
       {/* Experience Section */}
 
+      {/* Gallery Section */}
+      <GallerySection />
+      {/* Gallery Section */}
 
       {/* Projects Section */}
       <ProjectSection />
@@ -55,7 +59,10 @@ function App() {
       <EducationSkills />
       {/* Education & Skills */}
 
+      {/* Testamonial */}
       <Carousel />
+      {/* Testamonial */}
+
       {/* Contact Us Section*/}
       <ContactUs />
       {/* Contact Us Section */}
