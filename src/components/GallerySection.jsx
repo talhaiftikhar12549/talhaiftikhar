@@ -1,5 +1,4 @@
 import React from "react";
-import usmanPic from "../assets/usmanPic.jpg";
 import povatUfoia from "../assets/povatUforia.jpg";
 import deskSetup2023 from "../assets/desk2024.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -35,12 +34,12 @@ const GallerySection = () => {
                                 className="h-[80%] w-full"
                                 breakpoints={{
                                     768: {
-                                      slidesPerView: 2, 
+                                        slidesPerView: 2,
                                     },
                                     0: {
-                                      slidesPerView: 1, 
+                                        slidesPerView: 1,
                                     },
-                                  }}
+                                }}
                                 pagination={{ clickable: true }}
                                 navigation={true}
                                 style={{
@@ -51,23 +50,44 @@ const GallerySection = () => {
                                 }}
                             >
                                 <SwiperSlide>
-                                    <div className="  ">
-                                        <img className="w-[100%] h-[50%]" src={deskSetup2023} alt="Desk setup 2023" />
+                                    <div className="relative">
+                                        <img
+                                            className="w-full h-auto object-cover"
+                                            src={deskSetup2023}
+                                            alt="Desk setup 2023"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Desk Setup 2023
+                                        </p>
                                     </div>
                                 </SwiperSlide>
 
 
-
-
                                 <SwiperSlide>
-                                    <div className=" ">
-                                        <img className="w-[100%] " src={povatUfoia} alt="Povat UFOIA" />
+                                    <div className="relative">
+                                        <img
+                                            className="w-full h-auto object-cover"
+                                            src={povatUfoia
+                                            }
+                                            alt="Desk setup 2023"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Desk Setup 2023
+                                        </p>
                                     </div>
                                 </SwiperSlide>
 
                                 <SwiperSlide>
-                                    <div className="">
-                                        <img className="w-[100%] " src={povatUfoia} alt="Povat UFOIA duplicate" />
+                                    <div className="relative">
+                                        <img
+                                            className="w-full h-auto object-cover"
+                                            src={deskSetup2023
+                                            }
+                                            alt="Desk setup 2023"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Desk Setup 2023
+                                        </p>
                                     </div>
                                 </SwiperSlide>
 
