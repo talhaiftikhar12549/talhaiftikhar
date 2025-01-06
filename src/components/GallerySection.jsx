@@ -1,6 +1,7 @@
 import React from "react";
 import povatUfoia from "../assets/povatUforia.jpg";
 import deskSetup2023 from "../assets/desk2024.jpg"
+import rankingpicture from "../assets/rankingpicture.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
@@ -52,12 +53,12 @@ const GallerySection = () => {
                                 <SwiperSlide>
                                     <div className="relative">
                                         <img
-                                            className="w-full h-auto object-cover"
+                                            className="w-full max-h-[700px] h-100% object-cover"
                                             src={deskSetup2023}
                                             alt="Desk setup 2023"
                                         />
                                         <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
-                                            Desk Setup 2023
+                                            Desk Setup 2024
                                         </p>
                                     </div>
                                 </SwiperSlide>
@@ -66,13 +67,13 @@ const GallerySection = () => {
                                 <SwiperSlide>
                                     <div className="relative">
                                         <img
-                                            className="w-full h-auto object-cover"
+                                            className="w-full max-h-[700px] h-100% object-cover"
                                             src={povatUfoia
                                             }
                                             alt="Desk setup 2023"
                                         />
                                         <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
-                                            Desk Setup 2023
+                                            POV at Uforia
                                         </p>
                                     </div>
                                 </SwiperSlide>
@@ -80,13 +81,13 @@ const GallerySection = () => {
                                 <SwiperSlide>
                                     <div className="relative">
                                         <img
-                                            className="w-full h-auto object-cover"
-                                            src={deskSetup2023
+                                            className="w-full max-h-[700px] h-100% object-cover"
+                                            src={rankingpicture
                                             }
                                             alt="Desk setup 2023"
                                         />
                                         <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
-                                            Desk Setup 2023
+                                        Using SEO techniques to Rank website on 1st page
                                         </p>
                                     </div>
                                 </SwiperSlide>
