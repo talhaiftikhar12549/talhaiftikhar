@@ -73,7 +73,7 @@ const projects = [
       technologies: ["React", "JavaScript", "Tailwind", "Vite"],
       image: littleLemon,
       github: "https://github.com/talhaiftikhar12549/Little-Lemon",
-      live: "",
+      live: "https://little-lemon-resturant-project.netlify.app/",
     },
     
   ];
