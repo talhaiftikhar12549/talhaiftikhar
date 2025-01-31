@@ -1,4 +1,4 @@
-import React from "react";
+import osamaPic from "../assets/osama uforia.png";
 import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png";
 import usmanPic from "../assets/usmanPic.jpg";
 import raziaPic from "../assets/Capture2.png";
@@ -48,7 +48,7 @@ const Carousel = () => {
           <SwiperSlide>
             <div className="border-x-[12px] border-[#0e0e1a] bg-[#060614] px-4 w-[100%] h-[70%]  flex flex-col lg:flex-row items-center justify-evenly">
               <div className="flex items-center justify-center w-[100%] lg:w-[20%]">
-                <img className="h-[120px] w-[120px]" src={UforiaLogo} alt="Uforia Logo" />
+                <img className="h-[120px] w-[120px]" src={osamaPic} alt="Uforia Logo" />
               </div>
               <div className="flex flex-col w-[80%] text-[#ffffff]">
                 <p>
