@@ -12,7 +12,6 @@ import Carousel from './components/TestamonialSection';
 import GallerySection from './components/GallerySection';
 function App() {
 
-
   return (
     <>
       {/* First section */}
