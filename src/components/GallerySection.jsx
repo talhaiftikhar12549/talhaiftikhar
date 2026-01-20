@@ -1,7 +1,9 @@
-import React from "react";
 import povatUfoia from "../assets/povatUforia.jpg";
 import deskSetup2023 from "../assets/desk2024.jpg"
 import rankingpicture from "../assets/rankingpicture.jpg"
+import trickleup from "../assets/trickleup.jpeg"
+import seoStats from "../assets/seo stats.jpeg"
+import desk2025 from "../assets/desk 2025.jpeg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import { Pagination, Autoplay, Navigation } from "swiper/modules";
@@ -87,11 +89,53 @@ const GallerySection = () => {
                                             alt="Desk setup 2023"
                                         />
                                         <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
-                                        Using SEO techniques to Rank website on 1st page
+                                            Using SEO techniques to Rank website on 1st page
                                         </p>
                                     </div>
                                 </SwiperSlide>
 
+                                <SwiperSlide>
+                                    <div className="relative">
+                                        <img
+                                            className="w-full max-h-[700px] h-100% object-cover"
+                                            src={trickleup
+                                            }
+                                            alt="POV at TrickleUp"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Pov at Trickle Up
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className="relative">
+                                        <img
+                                            className="w-full max-h-[700px] h-100% object-cover"
+                                            src={seoStats
+                                            }
+                                            alt="SEO Stats"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Stats do not lie.
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
+
+
+                                <SwiperSlide>
+                                    <div className="relative">
+                                        <img
+                                            className="w-full max-h-[700px] h-100% object-cover"
+                                            src={desk2025
+                                            }
+                                            alt="Dek setup 2025"
+                                        />
+                                        <p className="absolute bottom-0 w-full bg-opacity-60 bg-black text-xl text-white py-4 text-center">
+                                            Working Rig 2025
+                                        </p>
+                                    </div>
+                                </SwiperSlide>
 
                             </Swiper>
                         </div>
