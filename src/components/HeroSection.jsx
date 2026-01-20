@@ -27,7 +27,7 @@ export default function HeroSection() {
                             <TypingTextAnimation />
                         </div>
                         <p className="text-sm md:text-lg">
-                            Meta Certified Front-End Engineer, turning pixels into pages with a parallel of 3+ years experience in tech. I am a self-taught developer who loves to build things that live on the internet.
+                            Meta Certified Front-End Engineer, turning pixels into pages with a parallel of 4+ years experience in tech. I am a self-taught developer who loves to build things that live on the internet.
                         </p>
                         <div className="flex flex-col md:flex-row justify-center md:justify-around w-[100%] py-8">
 
