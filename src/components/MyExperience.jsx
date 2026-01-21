@@ -1,7 +1,7 @@
 import HitechImg from "../assets/HITEC_University_Logo.png";
 import UforiaLogo from "../assets/uforiainfotech_logo-removebg-preview.png";
 import UjalaLogo from "../assets/ujala-school-logo-removebg-preview.png";
-import trickleup from "../assets/trickleup.webp";
+import trickleup from "../assets/trickleup.svg";
 export default function MyExperience() {
   return (
     <>
