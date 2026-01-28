@@ -10,8 +10,20 @@ import ContactUs from './components/ContactUs';
 import FooterBar from './components/FooterBar';
 import Carousel from './components/TestamonialSection';
 import GallerySection from './components/GallerySection';
+import { useEffect } from 'react';
 function App() {
+useEffect(() => {
+    // 1. Get the current hostname
+    const currentHost = window.location.hostname;
 
+    // 2. Check if the user is on the OLD Netlify domain
+    // (This ensures we don't break localhost or the new site)
+    if (currentHost.includes("netlify.app")) {
+      
+      // 3. Force the redirect to the new domain
+      window.location.replace("https://www.talhaiftikhar.com");
+    }
+  }, []);
   return (
     <>
       {/* First section */}
