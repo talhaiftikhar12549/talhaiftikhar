@@ -32,7 +32,7 @@ function App() {
         <link rel="canonical" href="https://www.talhaiftikhar.com/" />
       </Helmet>
       {/* First section */}
-      <section className="h-[100vh] w-100">
+      {/* <section className="h-[100vh] w-100">
         <div
           id="Home"
           className="top-0 left-0 right-0 bottom-0 absolute max-w-100 max-h-[90vh] md:max-h-[85vh] "
@@ -45,41 +45,41 @@ function App() {
         <div>
           <HeroSection />
         </div>
-      </section>
+      </section> */}
 
       {/* First section */}
 
       {/* About US section */}
-      <AboutUs />
+      {/* <AboutUs /> */}
 
       {/* About US section */}
 
       {/* Experience Section */}
-      <MyExperience />
+      {/* <MyExperience /> */}
       {/* Experience Section */}
 
       {/* Gallery Section */}
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/* Gallery Section */}
 
       {/* Projects Section */}
-      <ProjectSection />
+      {/* <ProjectSection /> */}
       {/* Projects Section */}
 
       {/* Education & Skills */}
-      <EducationSkills />
+      {/* <EducationSkills /> */}
       {/* Education & Skills */}
 
       {/* Testamonial */}
-      <Carousel />
+      {/* <Carousel /> */}
       {/* Testamonial */}
 
       {/* Contact Us Section*/}
-      <ContactUs />
+      {/* <ContactUs /> */}
       {/* Contact Us Section */}
 
       {/* Footer Bar  */}
-      <FooterBar />
+      {/* <FooterBar /> */}
       {/* Footer Bar  */}
     </>
   );
